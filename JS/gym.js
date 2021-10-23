@@ -15,7 +15,7 @@ function showNav(e) {
 
 
 document.onclick = function (e) {
-    if (e.target.classList == 'nav-list' || e.target.classList == 'main-heading') {
+    if (e.target.classList == 'nav-list') {
         navbar.classList.toggle('h-class-resp');
         navLeft.classList.toggle('v-class-resp');
         navRight.classList.toggle('v-class-resp');
