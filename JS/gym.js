@@ -1,3 +1,10 @@
+// ===========Preloader===========
+let preloader = document.getElementById('preloader');
+
+window.addEventListener('load', function () {
+    preloader.style.display = "none";
+})
+
 let humburger = document.querySelector('.humburger');
 
 let navbar = document.querySelector('.navbar');
